@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(47, 106, 233, 0.55), rgba(232, 153, 248, 0.51), rgba(0, 255, 17, 0.534));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 100px;
+    color: firebrick;
+}
+
+.logo span {
+    color: rgb(85, 160, 125);
+}
+
+.form {
+    background-color: azure;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.signIn {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.reg {
+    text-align: center;
+}
+
+.input {
+    background: transparent;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 921px) {
+    body {
+        display: none
+    }
+}
